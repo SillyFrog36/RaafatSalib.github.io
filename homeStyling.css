@@ -23,6 +23,18 @@
     cursor: pointer;
 }
 
+.selected {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border: transparent;
+    background: transparent;
+    font-size: 16px;
+    color: #b5e5e2;
+}
+
+.selected:hover{
+    cursor: pointer;
+}
 
 .title {
     position: fixed;
